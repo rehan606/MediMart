@@ -7,6 +7,7 @@ import DiscountAdd from './DiscountAdd';
 import About from './About';
 import { Helmet } from 'react-helmet-async';
 import OurService from './OurService';
+import NewsletterSection from './NewsletterSection';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Slider></Slider>
             <Category></Category>
             <OurService></OurService>
+            <NewsletterSection></NewsletterSection>
             <DiscountAdd></DiscountAdd>
             <Discount></Discount>
             <About></About>
