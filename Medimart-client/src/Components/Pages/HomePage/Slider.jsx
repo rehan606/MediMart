@@ -42,11 +42,11 @@ const Slider = () => {
                                     Shop for medicines and healthcare essentials with confidence. Trusted vendors, secure delivery, and excellent care — all in one place.
                                 </p>
                                 <div >
-                                    <button className="bg-[#00acb1]  text-white font-bold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
+                                    <button className="bg-[#00acb1] uppercase text-white font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
                                         Shop Now
                                     </button>
 
-                                    <button className="text-[#00acb1]  bg-white font-bold py-3 px-6 rounded-lg hover:scale-105 transition-transform">
+                                    <button className="text-[#00acb1] uppercase font-semibold bg-white  py-3 px-6 rounded-lg hover:scale-105 transition-transform">
                                         Read More +
                                     </button>
                                 </div>
@@ -81,11 +81,11 @@ const Slider = () => {
                                 Shop for medicines and healthcare essentials with confidence. Trusted vendors, secure delivery, and excellent care — all in one place.
                             </p>
                             <div >
-                                    <button className="bg-[#00acb1]  text-white font-bold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
+                                    <button className="bg-[#00acb1]  text-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
                                         Shop Now
                                     </button>
 
-                                    <button className="text-[#00acb1]  bg-white font-bold py-3 px-6 rounded-lg hover:scale-105 transition-transform">
+                                    <button className="text-[#00acb1]  bg-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform">
                                         Shop Now
                                     </button>
                                 </div>
@@ -121,11 +121,11 @@ const Slider = () => {
                                 Shop for medicines and healthcare essentials with confidence. Trusted vendors, secure delivery, and excellent care — all in one place.
                             </p>
                                 <div >
-                                    <button className="bg-[#00acb1]  text-white font-bold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
+                                    <button className="bg-[#00acb1]  text-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
                                         Shop Now
                                     </button>
 
-                                    <button className="text-[#00acb1]  bg-white font-bold py-3 px-6 rounded-lg hover:scale-105 transition-transform">
+                                    <button className="text-[#00acb1]  bg-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform">
                                         Shop Now
                                     </button>
                                 </div>
