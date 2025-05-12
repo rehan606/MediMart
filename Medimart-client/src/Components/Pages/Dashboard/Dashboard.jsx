@@ -25,7 +25,7 @@ const Dashboard = () => {
                 <title>Dashboard - MediMart</title>
             </Helmet>
             {/* Navbar */}
-            <header className="bg-[#80CDC3] text-white shadow-md py-4 sticky z-50 top-0">
+            <header className="bg-[#005963] text-white shadow-md py-4 sticky z-50 top-0">
                 <div className="container mx-auto flex justify-between items-center px-4">
                     <Link to='/' className="text-2xl font-bold flex items-center">
                     <img className="w-10 h-10" src="https://cdn-icons-png.flaticon.com/512/9098/9098442.png" alt="" />

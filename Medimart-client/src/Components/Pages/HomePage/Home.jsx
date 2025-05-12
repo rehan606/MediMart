@@ -12,7 +12,7 @@ import ArticlesSection from './ArticlesSection';
 
 const Home = () => {
     return (
-        <div>
+        <div >
             <Helmet>
                 <title>Home - MediMart</title>
             </Helmet>

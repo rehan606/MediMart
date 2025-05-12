@@ -25,6 +25,7 @@ import Syrap from "../Components/Pages/InnerPages/CategoryPage/Syrap";
 import Injection from "../Components/Pages/InnerPages/CategoryPage/Injection";
 import Suspension from "../Components/Pages/InnerPages/CategoryPage/Suspension";
 import Others from "../Components/Pages/InnerPages/CategoryPage/Others";
+import UpdateProfile from "../Components/Pages/Dashboard/UpdateProfile";
 
 
 export const router = createBrowserRouter([
@@ -80,6 +81,10 @@ export const router = createBrowserRouter([
     {
         path: 'others',
         element: <Others></Others>
+    },
+    {
+        path: 'updateProfile',
+        element: <UpdateProfile></UpdateProfile>
     },
     {
         path: 'dashboard',
