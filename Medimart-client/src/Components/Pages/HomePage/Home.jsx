@@ -8,6 +8,7 @@ import About from './About';
 import { Helmet } from 'react-helmet-async';
 import OurService from './OurService';
 import NewsletterSection from './NewsletterSection';
+import ArticlesSection from './ArticlesSection';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Category></Category>
             <OurService></OurService>
             <NewsletterSection></NewsletterSection>
+            <ArticlesSection/>
             <DiscountAdd></DiscountAdd>
             <Discount></Discount>
             <About></About>

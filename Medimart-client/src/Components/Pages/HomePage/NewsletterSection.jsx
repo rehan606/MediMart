@@ -1,6 +1,6 @@
 // import { RiMailUnreadLine } from "react-icons/ri";
-import { SiMinutemailer } from "react-icons/si";
-import { MdOutlineMarkEmailUnread } from "react-icons/md";
+// import { SiMinutemailer } from "react-icons/si";
+// import { MdOutlineMarkEmailUnread } from "react-icons/md";
 const NewsletterSection = () => {
     const logos = [
       "https://img.freepik.com/premium-vector/health-care-logo-design-template_145155-1477.jpg?w=740",
@@ -18,7 +18,7 @@ const NewsletterSection = () => {
               <div className="flex items-center gap-3">
                 
                 {/* <RiMailUnreadLine /> */}
-                <MdOutlineMarkEmailUnread />
+                {/* <MdOutlineMarkEmailUnread /> */}
                 <h3 className="text-xl font-bold">Subscribe Our Email <br /> For Newsletter</h3>
               </div>
               <p className="mt-2 text-sm">
@@ -32,7 +32,7 @@ const NewsletterSection = () => {
                   className="flex-1 px-4 py-2 text-gray-700 focus:outline-none"
                 />
                 <button className="bg-teal-700 text-white px-4 py-2 flex items-center gap-2">
-                <SiMinutemailer />
+                {/* <SiMinutemailer /> */}
                   SUBSCRIBE
                 </button>
               </div>
@@ -43,7 +43,7 @@ const NewsletterSection = () => {
               <div className="grid grid-cols-2 gap-4">
                 {logos.map((logo, index) => (
                   <div key={index} className="border p-4 flex justify-center items-center rounded-lg">
-                    <img src={logo} alt="Partner Logo" className="w-full h-20 border object-contain" />
+                    <img src={logo} alt="Partner Logo" className="w-full h-20 border rounded-lg object-contain" />
                   </div>
                 ))}
               </div>
