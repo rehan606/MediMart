@@ -32,7 +32,7 @@ const ArticlesSection = () => {
     ];
   
     return (
-      <section className="py-12 bg-gray-100">
+      <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4 text-center">
           <p className="text-teal-500 font-semibold">Latest News</p>
           <h2 className="text-3xl font-bold text-gray-800 my-2">Our Insights & Articles</h2>

@@ -26,9 +26,9 @@ const Discount = () => {
     })
 
     return (
-        <div >
+        <div className=''>
             
-            <div className='w-11/12 mx-auto py-5 md:py-20'>
+            <div className='w-11/12 mx-auto py-5 md:py-20  '>
             
                 <div className='lg:w-4/12 text-lg md:text-3xl font-semibold text-white bg-red-600 p-3 mb-5 '>Flash Sale: Up to 10% OFF</div>
                 <Swiper
@@ -62,7 +62,7 @@ const Discount = () => {
                     {
                         products.map(item => (
                             <SwiperSlide>
-                                <div className="max-w-sm rounded overflow-hidden shadow-lg border p-4 bg-white relative">
+                                <div className="max-w-sm cursor-pointer rounded overflow-hidden shadow-lg border p-4 bg-white relative">
                                     {/* Image Container */}
                                     <div className="h-48 w-full overflow-hidden rounded-t-lg relative">
                                         {/* Product Image */}

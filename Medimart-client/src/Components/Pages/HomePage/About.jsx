@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <section className="flex flex-col md:flex-row items-center justify-between gap-6 bg-gray-50 p-6 md:p-12">
+      <section className="flex flex-col md:flex-row items-center justify-between gap-6 bg-gray-50 p-6 md:py-16">
         {/* Left Section: Image */}
         <div className="md:w-1/2 flex justify-center relative">
           <img
@@ -12,7 +12,7 @@ const About = () => {
             className="rounded-lg shadow-lg w-80 md:w-full max-w-sm md:max-w-md"
           />
           
-          <div className="absolute top-4 left-4 bg-yellow-400 text-white font-bold py-1 px-3 rounded">
+          <div className="absolute top-4 left-8 bg-yellow-400 text-white font-bold py-1 px-3 rounded">
             Since 1985
           </div>
           

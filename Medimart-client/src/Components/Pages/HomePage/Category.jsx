@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 
 const Category = () => {
     return (
-        <div className='bg-white py-20'>
+        <div className='bg-gray-100 pb-20 pt-10'>
             <div className='w-11/12 mx-auto'>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <h2 className='text-2xl font-bold mb-4 text-[#005963]'>Categories  </h2> 
+                 
 
-                    <Link to="/tablet" className="bg-white relative text-white p-4 shadow rounded-lg"
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                    
+                    <Link to="/tablet" className="bg-white relative text-white p-4 shadow rounded-lg "
                         style={{ backgroundImage: 'url(https://i.ibb.co.com/tqK5NVT/image.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
                         >
                         <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>

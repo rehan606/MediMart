@@ -22,7 +22,7 @@ const OurService = () => {
     ];
   
     return (
-      <section className="py-12 bg-gray-100">
+      <section className="py-16 bg-gray-100">
         <div className="text-center mb-8">
           <h4 className="text-teal-600 font-semibold">What We Do</h4>
           <h2 className="text-3xl font-bold text-gray-800">Our Services</h2>

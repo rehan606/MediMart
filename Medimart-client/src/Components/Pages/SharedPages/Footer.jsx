@@ -99,9 +99,9 @@ const Footer = () => {
         
                 
             </div>
-            <div className='bg-[#80cdc3] mt-6 '>
+            <div className='bg-[#005963] mt-6 '>
                 <div className="w-11/12 mx-auto text-center ">
-                    <p className='text-gray-800 py-6 text-md'>© Copyright <span className='text-white'> {new Date().getFullYear()} </span> MediMart . All Rights Reserved.</p>
+                    <p className='text-white py-6 text-md'>© Copyright <span className='text-yellow-200 font-bold'> {new Date().getFullYear()} </span> MediMart . All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
