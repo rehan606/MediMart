@@ -10,9 +10,9 @@ const NewsletterSection = () => {
     ];
   
     return (
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid gap-6 md:grid-cols-2">
+      <section className="py-16 bg-white px-4">
+        <div className="container mx-auto ">
+          <div className="grid gap-6 md:grid-cols-2 ">
             {/* Newsletter Subscription Card */}
             <div className="bg-teal-600 text-white p-6 rounded-lg shadow-lg flex flex-col items-center">
               <div className="flex items-center gap-3">

@@ -4,6 +4,7 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay, } from 'swiper/modul
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { Link } from 'react-router-dom';
 
 const Slider = () => {
     return (
@@ -32,7 +33,7 @@ const Slider = () => {
                         <div className="absolute inset-0 bg-[#005963]  opacity-60"></div>
 
                         {/* Content */}
-                        <div className="relative mt-20 md:mt-0 container mx-auto  ">
+                        <div className="relative  md:mt-0 container mx-auto  ">
                             {/* Left Section */}
                             <div className="text-center md:w-6/12 mx-auto text-white space-y-6 mt-20 md:mt-0">
                                 <h1 className="text-4xl lg:text-6xl  font-bold leading-tight">
@@ -42,9 +43,9 @@ const Slider = () => {
                                     Shop for medicines and healthcare essentials with confidence. Trusted vendors, secure delivery, and excellent care — all in one place.
                                 </p>
                                 <div >
-                                    <button className="bg-[#00acb1] uppercase text-white font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
+                                    <Link to="/shop" className="bg-[#00acb1] uppercase text-white font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
                                         Shop Now
-                                    </button>
+                                    </Link>
 
                                     <button className="text-[#00acb1] uppercase font-semibold bg-white  py-3 px-6 rounded-lg hover:scale-105 transition-transform">
                                         Read More +
@@ -71,7 +72,7 @@ const Slider = () => {
 
 
                         {/* Content */}
-                        <div className="relative mt-20 md:mt-0 container mx-auto ">
+                        <div className="relative  md:mt-0 container mx-auto ">
                             {/* Left Section */}
                             <div className="text-center md:w-6/12 mx-auto text-white space-y-6 mt-20 md:mt-0">
                             <h1 className="text-4xl lg:text-6xl  font-bold leading-tight">
@@ -81,12 +82,12 @@ const Slider = () => {
                                 Shop for medicines and healthcare essentials with confidence. Trusted vendors, secure delivery, and excellent care — all in one place.
                             </p>
                             <div >
-                                    <button className="bg-[#00acb1]  text-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
+                                    <Link to="/shop" className="bg-[#00acb1]  text-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
                                         Shop Now
-                                    </button>
+                                    </Link>
 
                                     <button className="text-[#00acb1]  bg-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform">
-                                        Shop Now
+                                        Read More +
                                     </button>
                                 </div>
                             </div>
@@ -111,7 +112,7 @@ const Slider = () => {
 
 
                         {/* Content */}
-                        <div className="relative mt-20 md:mt-0 container mx-auto ">
+                        <div className="relative  md:mt-0 container mx-auto ">
                             {/* Left Section */}
                             <div className="text-center md:w-6/12 mx-auto text-white space-y-6 mt-20 md:mt-0">
                             <h1 className="text-4xl lg:text-6xl  font-bold leading-tight">
@@ -121,12 +122,12 @@ const Slider = () => {
                                 Shop for medicines and healthcare essentials with confidence. Trusted vendors, secure delivery, and excellent care — all in one place.
                             </p>
                                 <div >
-                                    <button className="bg-[#00acb1]  text-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
+                                    <Link to="/shop" className="bg-[#00acb1]  text-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform mr-4">
                                         Shop Now
-                                    </button>
+                                    </Link>
 
                                     <button className="text-[#00acb1]  bg-white uppercase font-semibold py-3 px-6 rounded-lg hover:scale-105 transition-transform">
-                                        Shop Now
+                                        Read More +
                                     </button>
                                 </div>
                             </div>
