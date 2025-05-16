@@ -18,7 +18,7 @@ const Shop = () => {
     const {user} = useContext(AuthContext)
     const navigate = useNavigate()
     const location = useLocation()
-    const [, refetch] = useCart()
+    const [ , refetch] = useCart()
 
     
     const {data: medicines = [], isLoading} = useQuery({
