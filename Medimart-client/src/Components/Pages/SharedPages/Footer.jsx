@@ -15,20 +15,20 @@ const Footer = () => {
                     We believe it has the power to do amazing things.
                 </p>
                 <p className="mt-2 text-gray-600">Interested in working with us?</p>
-                <a href="mailto:info@example.com" className="text-green-500 font-bold">
+                <a href="mailto:info@example.com" className="text-[#00ACB1] font-bold">
                     info@example.com
                 </a>
                 <div className="flex mt-4 space-x-4">
-                    <a href="#" className="text-gray-500 hover:text-green-500">
+                    <a href="#" className="text-gray-500 hover:text-[#00ACB1]">
                     <i className="fab fa-twitter"></i>
                     </a>
-                    <a href="#" className="text-gray-500 hover:text-green-500">
+                    <a href="#" className="text-gray-500 hover:text-[#00ACB1]">
                     <i className="fab fa-facebook"></i>
                     </a>
-                    <a href="#" className="text-gray-500 hover:text-green-500">
+                    <a href="#" className="text-gray-500 hover:text-[#00ACB1]">
                     <i className="fab fa-vimeo"></i>
                     </a>
-                    <a href="#" className="text-gray-500 hover:text-green-500">
+                    <a href="#" className="text-gray-500 hover:text-[#00ACB1]">
                     <i className="fab fa-pinterest"></i>
                     </a>
                 </div>
@@ -38,11 +38,11 @@ const Footer = () => {
                 <div>
                 <h3 className="text-lg font-bold text-gray-800">Quick Links</h3>
                 <ul className="mt-4 space-y-2 text-gray-600">
-                    <li><a href="#" className="hover:text-green-500">Services</a></li>
-                    <li><a href="#" className="hover:text-green-500">About Company</a></li>
-                    <li><a href="#" className="hover:text-green-500">Latest News</a></li>
-                    <li><a href="#" className="hover:text-green-500">Team Member</a></li>
-                    <li><a href="#" className="hover:text-green-500">Testimonials</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">Services</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">About Company</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">Latest News</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">Team Member</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">Testimonials</a></li>
                 </ul>
                 </div>
         
@@ -50,11 +50,11 @@ const Footer = () => {
                 <div>
                 <h3 className="text-lg font-bold text-gray-800">My Account</h3>
                 <ul className="mt-4 space-y-2 text-gray-600">
-                    <li><a href="#" className="hover:text-green-500">My Profile</a></li>
-                    <li><a href="#" className="hover:text-green-500">My Order History</a></li>
-                    <li><a href="#" className="hover:text-green-500">My Wish List</a></li>
-                    <li><a href="#" className="hover:text-green-500">Order Tracking</a></li>
-                    <li><a href="#" className="hover:text-green-500">Shopping Cart</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">My Profile</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">My Order History</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">My Wish List</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">Order Tracking</a></li>
+                    <li><a href="#" className="hover:text-[#00ACB1]">Shopping Cart</a></li>
                 </ul>
                 </div>
     
@@ -64,7 +64,7 @@ const Footer = () => {
                 <p className="mt-4 text-gray-600">
                     570 8th Ave, New York, NY
                     <br />
-                    <span className="text-red-500">10018 United States</span>
+                    <span className="text-[#00ACB1]">10018 United States</span>
                 </p>
                 <p className="mt-2 text-gray-600">
                     <span className="font-bold">Hours:</span>
@@ -93,7 +93,7 @@ const Footer = () => {
                 <p className="mt-4 text-gray-600">
                     24/7 Support Center:
                     <br />
-                    <span className="text-green-500 font-bold">+880 1822 1822 07</span>
+                    <span className="text-[#00ACB1] font-bold">+880 1822 1822 07</span>
                 </p>
                 </div>
         

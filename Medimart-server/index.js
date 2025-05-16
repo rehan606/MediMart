@@ -8,12 +8,12 @@ const app = express()
 const port = process.env.PORT || 5000
 
 // Middlewire
-app.use(cors())
-// app.use(cors({
-//   origin: 'https://medimart-cbe0f.web.app',
-//   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-//   credentials: true
-// }));
+// app.use(cors())
+app.use(cors({
+  origin: 'https://medimart-cbe0f.web.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 app.use(express.json())
 
 
@@ -311,6 +311,107 @@ async function run() {
           res.status(500).send({ error: "Failed to fetch data" });
       }
     });
+
+
+    // Dashboard chart 
+
+    // Get count of users by role
+    app.get('/user-role-count',  async (req, res) => {
+      try {
+        const roles = ['admin', 'seller', 'user'];
+        const counts = await Promise.all(
+          roles.map(async (role) => {
+            const count = await userCollection.countDocuments({ role });
+            return { role, count };
+          })
+        );
+        res.send(counts);
+      } catch (error) {
+        console.error('User role count error:', error);
+        res.status(500).send({ error: 'Failed to fetch user role counts' });
+      }
+    });
+
+    // Top selling medicines by quantity
+    app.get('/dashboard/sales-overview',  verifyAdmin, async (req, res) => {
+      try {
+        const pipeline = [
+          { $unwind: '$items' },
+          {
+            $group: {
+              _id: '$items.medicineId',
+              name: { $first: '$items.name' },
+              totalQuantity: { $sum: '$items.quantity' },
+              totalSales: { $sum: '$items.price' },
+            }
+          },
+          { $sort: { totalQuantity: -1 } },
+          { $limit: 10 }
+        ];
+        const result = await paymentCollection.aggregate(pipeline).toArray();
+        res.send(result);
+      } catch (error) {
+        console.error('Sales overview error:', error);
+        res.status(500).send({ error: 'Failed to fetch sales overview' });
+      }
+    });
+
+    // Monthly order count
+    app.get('/dashboard/monthly-orders',  verifyAdmin, async (req, res) => {
+      try {
+        const pipeline = [
+          {
+            $group: {
+              _id: {
+                year: { $year: { $toDate: '$date' } },
+                month: { $month: { $toDate: '$date' } },
+              },
+              totalOrders: { $sum: 1 }
+            }
+          },
+          { $sort: { '_id.year': 1, '_id.month': 1 } }
+        ];
+        const result = await paymentCollection.aggregate(pipeline).toArray();
+        res.send(result);
+      } catch (error) {
+        console.error('Monthly order error:', error);
+        res.status(500).send({ error: 'Failed to fetch monthly orders' });
+      }
+    });
+
+    // Monthly revenue
+    app.get('/dashboard/monthly-revenue',  verifyAdmin, async (req, res) => {
+      try {
+        const pipeline = [
+          {
+            $group: {
+              _id: {
+                year: { $year: { $toDate: '$date' } },
+                month: { $month: { $toDate: '$date' } },
+              },
+              totalRevenue: { $sum: '$price' }
+            }
+          },
+          { $sort: { '_id.year': 1, '_id.month': 1 } }
+        ];
+        const result = await paymentCollection.aggregate(pipeline).toArray();
+        res.send(result);
+      } catch (error) {
+        console.error('Monthly revenue error:', error);
+        res.status(500).send({ error: 'Failed to fetch monthly revenue' });
+      }
+    });
+
+
+
+
+
+
+
+
+
+
+
 
 
     

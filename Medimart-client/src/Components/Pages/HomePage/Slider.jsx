@@ -11,10 +11,10 @@ const Slider = () => {
         <div>
             <Swiper
                 spaceBetween={30}
-                // autoplay={{
-                //     delay: 2500,
+                autoplay={{
+                    delay: 2500,
                     
-                // }}
+                }}
                 pagination={{
                 clickable: true,
                 }}

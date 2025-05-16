@@ -20,7 +20,7 @@ const Dashboard = () => {
     }
 
     return (
-        <div className="flex flex-col bg-gray-100">
+        <div className="flex flex-col  ">
             <Helmet>
                 <title>Dashboard - MediMart</title>
             </Helmet>
@@ -50,22 +50,22 @@ const Dashboard = () => {
                     <ul className="p-4 space-y-4">
                         {isAdmin && (
                             <>
-                                <li className="bg-blue-600 hover:bg-gray-200 p-2 rounded-lg">
-                                    <Link to='/dashboard' className="block">Admin</Link>
+                                <li className="bg-[#00acb1]  p-2 rounded-lg">
+                                    <Link to='/dashboard' className="block text-center  text-white font-black">Admin</Link>
                                 </li>
-                                <li className="hover:bg-gray-200 p-2 rounded-lg flex items-center gap-2 border">
+                                <li className="hover:bg-[#00acb1] hover:text-white p-2 rounded-lg flex items-center gap-2 border">
                                     <FaUsers></FaUsers>
                                     <Link to='/dashboard/manageUser' className="block">Manage User</Link>
                                 </li>
-                                <li className="hover:bg-gray-200 p-2 rounded-lg flex items-center gap-2 border">
+                                <li className="hover:bg-[#00acb1] hover:text-white p-2 rounded-lg flex items-center gap-2 border">
                                     <FaDollarSign></FaDollarSign>
                                     <Link to='/dashboard/paymentManagement' className="block">Payment Management</Link>
                                 </li>
-                                <li className="hover:bg-gray-200 p-2 rounded-lg flex items-center gap-2 border">
+                                <li className="hover:bg-[#00acb1] hover:text-white p-2 rounded-lg flex items-center gap-2 border">
                                 <FaList></FaList>
                                     <Link to='/dashboard/manageCategory' className="block">Manage Category</Link>
                                 </li>
-                                <li className="hover:bg-gray-200 p-2 rounded-lg flex items-center gap-2 border">
+                                <li className="hover:bg-[#00acb1] hover:text-white p-2 rounded-lg flex items-center gap-2 border">
                                     <FaBarsProgress></FaBarsProgress>
                                     <Link to='/dashboard/' className="block">Sales Report</Link>
                                 </li>

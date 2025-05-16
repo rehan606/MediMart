@@ -30,7 +30,7 @@ const Discount = () => {
             
             <div className='w-11/12 mx-auto py-5 md:py-20  '>
             
-                <div className='lg:w-4/12 text-lg md:text-3xl font-semibold text-white bg-red-600 p-3 mb-5 '>Flash Sale: Up to 10% OFF</div>
+                <div className='lg:w-4/12 text-lg md:text-3xl font-semibold text-white bg-[#00ACB1] p-3 mb-5 '>Flash Sale: Up to 10% OFF</div>
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={10}
@@ -74,7 +74,7 @@ const Discount = () => {
 
                                         {/* Discount Badge */}
                                         {item.discount > 0 && (
-                                        <span className="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold py-1 px-2 rounded">
+                                        <span className="absolute top-2 right-2 bg-[#00acb1] text-white text-xs font-bold py-1 px-2 rounded">
                                             {item.discount} % OFF
                                         </span>
                                         )}
