@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Helmet } from "react-helmet-async";
 import { useEffect, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
-import DashboardChart from './DashboartChart';
+// import DashboardChart from './DashboartChart';
 import LineChartt from './Chart/LineChart';
 import AriaChart from './Chart/AriaChart';
 
