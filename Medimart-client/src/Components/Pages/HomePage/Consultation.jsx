@@ -1,4 +1,4 @@
-const Doctors = () => {
+const Consultation = () => {
   return (
     <section className="bg-[#E6FCF9] py-16 px-4 md:px-10 lg:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
@@ -45,4 +45,4 @@ const Doctors = () => {
   );
 };
 
-export default Doctors;
+export default Consultation;
