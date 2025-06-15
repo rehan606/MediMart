@@ -15,22 +15,29 @@ const testimonials = [
     name: "Ayesha Akter",
     title: "Customer",
     comment:
-      "Very professional and secure service. I got my medicine the next day. Highly recommended!",
+      "Very professional and secure service. I got my medicine the next day. Highly recommended! buy medicine from here",
     image: "https://uhlbd.com/unitedhospitalapi/public/DoctorProfileImg/202412221222Parisa%20Marjan%20copy.jpg",
   },
   {
     name: "Sazzad Rahman",
     title: "Customer",
     comment:
-      "Loved how fast and confidential everything was. Excellent service and support team!",
+      "Loved how fast and confidential everything was. Excellent service and support team! Thank You",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_xVKeWGvB2T_6T-egm83T2d7HtVwRIT_3Hg&s",
+  },
+  {
+    name: "Ayesha Akter",
+    title: "Customer",
+    comment:
+      "Very professional and secure service. I got my medicine the next day. Highly recommended! buy medicine from here",
+    image: "https://uhlbd.com/unitedhospitalapi/public/DoctorProfileImg/202412221222Parisa%20Marjan%20copy.jpg",
   },
 ];
 
 const TestimonialsSwiper = () => {
   return (
     <section className="bg-[#F1FCFA] py-16 px-4 md:px-10 lg:px-20">
-      <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl lg:text-6xl font-black text-[#063A2F] mb-4">
           What Our <span className="text-[#29D9C2]" >Customers Say</span>
         </h2>
@@ -41,7 +48,7 @@ const TestimonialsSwiper = () => {
         <Swiper
           modules={[Pagination, Autoplay]}
           spaceBetween={30}
-          slidesPerView={2}
+          slidesPerView={3}
           loop={true}
           pagination={{ clickable: true }}
           autoplay={{ delay: 2000 }}

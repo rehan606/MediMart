@@ -13,6 +13,7 @@ import Consultation from './Consultation';
 import UploadPrescription from './UploadPrescription';
 import FaqSection from './FaqSection';
 import Testimonials from './Testimonials';
+import Certifications from './Certifications';
 
 
 const Home = () => {
@@ -31,9 +32,10 @@ const Home = () => {
             <DiscountAdd></DiscountAdd>
             <About></About>
             <Testimonials></Testimonials>
+            <Certifications></Certifications>
             <NewsletterSection></NewsletterSection>
             <FaqSection></FaqSection>
-            <Service></Service>
+            {/* <Service></Service> */}
         </div>
     );
 };
