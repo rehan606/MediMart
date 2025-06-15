@@ -32,10 +32,10 @@ const ArticlesSection = () => {
     ];
   
     return (
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-[#F1FCFA]">
         <div className="container mx-auto px-4 text-center">
           <p className="text-teal-500 font-semibold">Latest News</p>
-          <h2 className="text-3xl font-bold text-gray-800 my-2">Our Insights & Articles</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-800 my-2">Our Insights & <span className="text-[#29D9C2]">Articles</span></h2>
           <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {articles.map((article) => (
               <div key={article.id} className="bg-white rounded-lg shadow-lg overflow-hidden">

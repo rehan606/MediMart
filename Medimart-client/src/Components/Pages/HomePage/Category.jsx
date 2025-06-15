@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Category = () => {
     return (
-        <div className='bg-gray-100 pb-20 pt-10'>
+        <div className='bg-[#F1FCFA] pb-20 pt-10'>
             <div className='w-11/12 mx-auto'>
-                <h2 className='text-2xl font-bold mb-4 text-[#005963]'>Categories  </h2> 
+                <h2 className='text-2xl md:text-3xl lg:text-5xl font-black mb-10 text-center text-[#005963]'>Categories  </h2> 
                  
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">

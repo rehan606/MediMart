@@ -22,10 +22,10 @@ const OurService = () => {
     ];
   
     return (
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-[#E6FCF9]">
         <div className="text-center mb-8">
           <h4 className="text-teal-600 font-semibold">What We Do</h4>
-          <h2 className="text-3xl font-bold text-gray-800">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-800 my-2">Our <span className="text-[#29D9C2]">Services</span></h2>
         </div>
         <div className="container mx-auto px-4">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

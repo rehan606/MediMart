@@ -27,7 +27,7 @@ const FaqSection = () => {
   };
 
   return (
-    <section className="bg-white py-16 px-4 md:px-10 lg:px-20">
+    <section className="bg-[#E6FCF9] py-16 px-4 md:px-10 lg:px-20">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-center text-[#063A2F] mb-8">
           Frequently Asked <span className="text-[#29D9C2]">Questions</span> 

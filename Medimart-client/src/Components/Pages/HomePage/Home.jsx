@@ -12,6 +12,7 @@ import ArticlesSection from './ArticlesSection';
 import Consultation from './Consultation';
 import UploadPrescription from './UploadPrescription';
 import FaqSection from './FaqSection';
+import Testimonials from './Testimonials';
 
 
 const Home = () => {
@@ -24,12 +25,13 @@ const Home = () => {
             <Category></Category>
             <Discount></Discount>
             <OurService></OurService>
-            <NewsletterSection></NewsletterSection>
-            <Consultation></Consultation>
             <UploadPrescription></UploadPrescription>
-            <DiscountAdd></DiscountAdd>
+            <Consultation></Consultation>
             <ArticlesSection/>
+            <DiscountAdd></DiscountAdd>
             <About></About>
+            <Testimonials></Testimonials>
+            <NewsletterSection></NewsletterSection>
             <FaqSection></FaqSection>
             <Service></Service>
         </div>

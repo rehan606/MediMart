@@ -27,7 +27,7 @@ const Navbar = () => {
     const links = (
         <>
             <li className="font-Oswald uppercase">
-                <NavLink to="/">Home</NavLink>
+                <NavLink  to="/">Home</NavLink>
             </li>
 
             <li className="font-Oswald uppercase">
