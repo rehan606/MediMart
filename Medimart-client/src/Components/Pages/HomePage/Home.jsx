@@ -14,6 +14,7 @@ import UploadPrescription from './UploadPrescription';
 import FaqSection from './FaqSection';
 import Testimonials from './Testimonials';
 import Certifications from './Certifications';
+import ContactUs from './ContactUs';
 
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
             <Certifications></Certifications>
             <NewsletterSection></NewsletterSection>
             <FaqSection></FaqSection>
+            <ContactUs></ContactUs>
             {/* <Service></Service> */}
         </div>
     );
