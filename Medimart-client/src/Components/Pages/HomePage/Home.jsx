@@ -11,6 +11,7 @@ import NewsletterSection from './NewsletterSection';
 import ArticlesSection from './ArticlesSection';
 import Consultation from './Consultation';
 import UploadPrescription from './UploadPrescription';
+import FaqSection from './FaqSection';
 
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
             <DiscountAdd></DiscountAdd>
             <ArticlesSection/>
             <About></About>
+            <FaqSection></FaqSection>
             <Service></Service>
         </div>
     );
